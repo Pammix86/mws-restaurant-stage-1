@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
-  max-width : 100%;
+
 }
 #maincontent {
   background-color: #f3f3f3;
@@ -54,6 +54,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
 }
 /* ====================== Navigation ====================== */
 header {
@@ -227,6 +228,7 @@ header nav h1 a {
   font-size: 20pt;
   font-weight: 200;
   letter-spacing: 0;
+  text-align: center;
   margin: 0;
   padding: 20px 0;
   text-transform: uppercase;
@@ -252,9 +254,9 @@ header nav h1 a {
   text-transform: uppercase;
 	width: 100%;
 }
-
+/* ====================== Reviews List  ====================== */
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 10px 20px 15px;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -266,26 +268,63 @@ header nav h1 a {
 #reviews-list {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 #reviews-list li {
   background-color: #fff;
     border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
+  border-radius: 15px 0 15px 0;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+  0 6px 6px rgba(0, 0, 0, 0.23);
+-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+  0 6px 6px rgba(0, 0, 0, 0.23);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  width: 95%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
+  font-size: 1.2em;
+}
+#reviews-list li p.date {
+  float: right;
+  text-align: right;
+  padding-top: 5px;
+  width: 60%;
+  font-size: 1.2em;
+  text-shadow: #222;
+  color: #ccc;
+}
+#reviews-list li p.rating {
+  
+  width: 30%;
+  padding: 4px;
+  margin: 20px 20px;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#reviews-list li p.reviewerName {
+  margin-top: 10px;
+  font-style: oblique;
+}
+#reviews-list li p.comments {
+  margin: 0 20px;
+  padding-bottom: 20px;
+  font-size: 1.1em;
+  color: #444;
 }
 #restaurant-hours td {
   color: #666;
 }
 
-/* Media Queryes */ 
+/* ====================== Media Queries ====================== */
 /* Minor Brackpoints */
   @media screen and (max-width: 700px) {
     #restaurants-list li h1 {
@@ -302,3 +341,4 @@ header nav h1 a {
     display: none;
   }
 }
+
