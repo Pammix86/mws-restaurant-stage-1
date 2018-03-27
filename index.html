@@ -12,13 +12,13 @@
 <body>
   <header>
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1 role="banner"><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
   <main id="maincontent">
     <section id="map-container">
-      <div id="map"></div>
+      <div id="map" role="application"></div>
     </section>
     <section>
       <div class="filter-options">
@@ -31,7 +31,7 @@
         </select>
       </div>
       <div class="container">
-        <ul id="restaurants-list"></ul>
+        <ul tabindex = "0" aria-label= "lista ristoranti" id="restaurants-list" role="directory"></ul>
       </div>
     </section>
   </main>
