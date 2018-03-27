@@ -1,4 +1,4 @@
-var cacheName = 'restaurantApp-4';
+var cacheName = 'restaurantApp-5';
 
 var filesToCache = [
     '/',
