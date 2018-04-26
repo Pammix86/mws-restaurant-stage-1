@@ -12,7 +12,7 @@ module.exports = function(grunt) {
             },
             {
               name: "large",
-              width: 1024
+              width: 760
             }
           ]
         },
