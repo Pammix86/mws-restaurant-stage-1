@@ -61,11 +61,6 @@ gulp.task('scripts-dist', function() {
       console.log('[ERROR] '+ err.toString() );
     })
     .pipe(gulp.dest('dist/js'));
-  gulp.src('service-worker.js')
-    .pipe(babel({
-    }))
-    .pipe(uglify())
-    .pipe(gulp.dest('.dist'));
 });
 gulp.task('copy-html', function() {
   gulp.src('./*.html')
