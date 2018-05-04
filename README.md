@@ -14,10 +14,11 @@ You have been provided the code for a restaurant reviews website. The code has a
 
 1. Build app to dist directory: 
 
-Run  `gulp dist` 
+    Run  `gulp dist` 
 
 2. Start webserver to test the App: 
-Run   `gulp webserver `
+    
+    Run   `gulp webserver `
 
 
 
