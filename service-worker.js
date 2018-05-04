@@ -6,7 +6,6 @@ var filesToCache = [
     '/restaurant.html',
     '/js/main.js',
     '/css/styles.css',
-    '/data/restaurants.json',
     '/images/1-large.jpg',
     '/images/1-small.jpg',
     '/images/2-large.jpg',
