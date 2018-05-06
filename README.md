@@ -12,11 +12,7 @@ You have been provided the code for a restaurant reviews website. The code has a
 
 ### What to Start?
 
-1. Build app to dist directory: 
-
-    Run  `gulp dist` 
-
-2. Start webserver to test the App: 
+1. Start webserver to test the App: 
     
     Run   `gulp webserver `
 
