@@ -54,10 +54,9 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #FFFFFF;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -65,17 +64,17 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 /* ====================== Navigation ====================== */
 header {
   width: 100%;
-  background-color: #252831;
+  background-color: #090098;
   order: 0;
 }
 nav {
   width: 100%;
-  background-color: #252831;
+  background-color: #090098;
   text-align: left;
 }
 header nav {
   width: 100%;
-  background-color: #252831;
+  background-color: #090098;
   text-align: left;
 }
 
@@ -214,7 +213,7 @@ header nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #090098;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -299,9 +298,8 @@ header nav h1 a {
 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
   position: relative;
-  width: 95%;
+ 
 }
 #reviews-list li p {
   margin: 0 0 10px;

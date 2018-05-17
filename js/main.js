@@ -149,9 +149,11 @@ var createRestaurantHTML = (restaurant) => {
   li.setAttribute("tabindex", "0");
   const image = document.createElement('img');
   image.className = 'restaurant-img';
-  image.src = DBHelper.imageUrlForRestaurant(restaurant);
+ // image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.src = "/images/blank.gif";
   image.srcset = DBHelper.imageSetUrlForRestaurant(restaurant);
   image.alt = restaurant.name + restaurant.photoDescription;
+  image.setAttribute("data-echo", DBHelper.imageUrlForRestaurant(restaurant));
   li.append(image);
 
   const name = document.createElement('h2');
